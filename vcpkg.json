@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "game-engine",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "glfw3",
+        {
+            "name": "imgui",
+            "features": [
+                "glfw-binding",
+                "opengl3-binding",
+                "docking-experimental"
+            ]
+        },
+        "yaml-cpp",
+        "entt",
+        "glm"
+    ]
+}
